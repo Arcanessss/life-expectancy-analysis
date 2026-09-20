@@ -11,6 +11,17 @@ You will find simple, detailed instructions there for generating a graph for a s
 - *Coverage*: 195 countries, 1990–2021
 - *Variables*: Country, Continent, Hemisphere, HDI Rank, Life Expectancy per year
 
+## How to use
+
+1. Download the CSV file from Kaggle (link above)
+2. Place it in a new folder.
+3. Open `life_expectancy_analysis.R` in RStudio
+   (+Example path present for help you in script)
+5. Run the script (Ctrl + Shift + Enter)
+6. Two plots will appear in the Plots tab (bottom right)
+
+#To change the country: modify the line `filter(Country == "Afghanistan")` in Plot 1.
+#To compare several countries: modify the list in Plot 2.
 
 **Tools** :
 
