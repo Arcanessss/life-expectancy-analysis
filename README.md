@@ -17,7 +17,8 @@ You will find simple, detailed instructions there for generating a graph for a s
 1. Download the CSV file from Kaggle (link above)
 2. Place it in a new folder.
 3. Open `life_expectancy_analysis.R` in RStudio
-   (+Example path present for help you in script)
+   (An example is provided.)
+4. Modify the countries according to your needs.
 5. Run the script (Ctrl + Shift + Enter)
 6. Two plots will appear in the Plots tab (bottom right)
 
