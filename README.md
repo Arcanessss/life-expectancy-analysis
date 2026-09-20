@@ -23,7 +23,7 @@ You will find simple, detailed instructions there for generating a graph for a s
 
 To change the country: modify the line `filter(Country == "Afghanistan")` in Plot 1.
 
-To compare several countries: modify the list in Plot 2.
+To compare several countries: modify the list `("Afghanistan", "France", "China", "United States")` in Plot 2.
 
 
 
