@@ -25,6 +25,9 @@ To change the country: modify the line `filter(Country == "Afghanistan")` in Plo
 
 To compare several countries: modify the list `("Afghanistan", "France", "China", "United States")` in Plot 2.
 
+## Purpose
+
+This project was made as a first step into data analysis with R, with the goal of sharing a simple, reusable script for teachers and textbook creators.
 
 
 **Tools** :
