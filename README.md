@@ -2,7 +2,7 @@
 
 Life expectancy analysis (1990-2021) using R and the tidyverse.
 
- *You will find simple, detailed instructions there for generating a graph for a single country (plot1) or for comparing several countries (plot2).*
+You will find simple, detailed instructions there for generating a graph for a single country (plot1) or for comparing several countries (plot2).
 
 
 **Dataset** :
