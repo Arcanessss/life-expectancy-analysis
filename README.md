@@ -30,7 +30,7 @@ To compare several countries: modify the list `("Afghanistan", "France", "China"
 This project was made as a first step into data analysis with R, with the goal of sharing a simple, reusable script for teachers and textbook creators.
 
 
-**Tools** :
+## Tools :
 
 - R (version 4.5.2)
 - tidyverse (dplyr, tidyr, ggplot2)
