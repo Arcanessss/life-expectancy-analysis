@@ -20,8 +20,8 @@ You will find simple, detailed instructions there for generating a graph for a s
 5. Run the script (Ctrl + Shift + Enter)
 6. Two plots will appear in the Plots tab (bottom right)
 
-#To change the country: modify the line `filter(Country == "Afghanistan")` in Plot 1.
-#To compare several countries: modify the list in Plot 2.
+To change the country: modify the line `filter(Country == "Afghanistan")` in Plot 1.
+To compare several countries: modify the list in Plot 2.
 
 **Tools** :
 
