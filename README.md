@@ -4,7 +4,7 @@ Life expectancy analysis (1990-2021) using R and the tidyverse.
 
 **Dataset** :
 
-- *Source*: [Kaggle – Life Expectancy at Birth Across the Globe](https://www.kaggle.com/datasets/souravban/life-expectancy-at-birth-across-the-globe)
+- *Source*: [Kaggle – Life Expectancy at Birth Across the Globe](https://www.kaggle.com/datasets/iamsouravbanerjee/life-expectancy-at-birth-across-the-globe)
 - *Coverage*: 195 countries, 1990–2021
 - *Variables*: Country, Continent, Hemisphere, HDI Rank, Life Expectancy per year
 
