@@ -30,6 +30,14 @@ To compare several countries: modify the list `("Afghanistan", "France", "China"
 
 This project was made as a first step into data analysis with R, with the goal of sharing a simple, reusable script for teachers and textbook creators.
 
+## Preview
+
+### Plot 1: Single country
+![Life Expectancy in Afghanistan](Afghanistan_example.png)
+
+### Plot 2: Country comparison
+![Life Expectancy Evolution](Comparison_example.png)
+
 
 ## Tools :
 
