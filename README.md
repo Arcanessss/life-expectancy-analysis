@@ -2,11 +2,15 @@
 
 Life expectancy analysis (1990-2021) using R and the tidyverse.
 
+ *You will find simple, detailed instructions there for generating a graph for a single country (plot1) or for comparing several countries (plot2).*
+
+
 **Dataset** :
 
 - *Source*: [Kaggle – Life Expectancy at Birth Across the Globe](https://www.kaggle.com/datasets/iamsouravbanerjee/life-expectancy-at-birth-across-the-globe)
 - *Coverage*: 195 countries, 1990–2021
 - *Variables*: Country, Continent, Hemisphere, HDI Rank, Life Expectancy per year
+
 
 **Tools** :
 
@@ -14,6 +18,7 @@ Life expectancy analysis (1990-2021) using R and the tidyverse.
 - tidyverse (dplyr, tidyr, ggplot2)
 
 I just imported the CSV dataset, reshaped the data from wide to long format using `pivot_longer()` and visualised life expectancy trends over time with `ggplot2`.
+
 
 ## Author
 
