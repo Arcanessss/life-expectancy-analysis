@@ -6,19 +6,18 @@
 # --- HOW TO USE THIS SCRIPT -----------------
 #
 # 1. Install R and RStudio
-# 2. Install the "tidyverse" package:
-#    install.packages("tidyverse")
+# 2. Write: install.packages("tidyverse")
 # 3. Download the dataset from Kaggle (link in README)
-# 4. Place the CSV file in the same folder as this script
+# 4. Place the CSV file in the same folder as this script (indicated by #!...!)
 # 5. Change the file path below (line "DATA IMPORT")
-# 6. Run the script (Ctrl + Shift + Enter)
+# 6. Select all script (ctrl +a) and 'Run' the script (Ctrl + Shift + Enter)
 #
 # TO CHANGE THE COUNTRY:
 #   - Modify the line "filter(Country == 'Afghanistan')"
-#   - Replace "Afghanistan" with any country name from the dataset
+#   - Replace "Afghanistan" with any country name from the dataset 
 #
 # TO SEE BOTH PLOTS:
-#   - Click the arrows ◀ ▶ in the "Plots" tab (bottom right of RStudio)
+#   - Click the arrows ◀ ▶ in the "Plots" tab (bottom right of RStudio) for see Plot 1 or Plot 2
 #
 # ============================================
 
@@ -27,7 +26,7 @@ library(tidyverse)
 # --- Data import ----------------------------
 
 
-#Enter the path to the CSV file (the data) here. 
+#!Enter the path to the CSV file (the data) here.!
 data <- read_csv("data/life_expectancy.csv")
 #[You can find the CSV file containing the data here: https://www.kaggle.com/datasets/iamsouravbanerjee/life-expectancy-at-birth-across-the-globe]
 
@@ -83,5 +82,4 @@ ggplot(countries, aes(x = Year, y = Life_Expectancy, color = Country, group = Co
   ) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
-
 
